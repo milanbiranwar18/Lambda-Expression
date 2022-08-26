@@ -25,5 +25,9 @@ namespace LambdaExpression
         public string validateEmailusingLambda(string Email) => Regex.IsMatch(Email, RegexEmail) ? "valid" : "Invalid";
 
 
+         //UC4
+         static string RegexMobileNumber = "^[1-9]{2}[6-9]{1}[0-9]{9}$";
+        public string validateMobileNumberusingLambda(string MobileNumber) => Regex.IsMatch(MobileNumber, RegexMobileNumber) ? "valid" : "Invalid" ;  
+
     }
 }
