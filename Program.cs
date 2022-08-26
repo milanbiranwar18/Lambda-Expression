@@ -129,9 +129,22 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
-            Console.WriteLine("Enter Password");
-            string password = Console.ReadLine();
-            string opt = user.validatePassword8usinglambda(password);
+            //Console.WriteLine("Enter Password");
+            //string password = Console.ReadLine();
+            //string opt = user.validatePassword8usinglambda(password);
+            //if (opt == "valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
+
+            Console.WriteLine("Enter Email");
+            string Email = Console.ReadLine();
+            string opt = user.validateEmail9usingLambda(Email);
             if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
@@ -140,8 +153,7 @@
             {
                 Console.WriteLine("Pattern is not matched");
             }
-
-            
+           
         }
     }
 }
