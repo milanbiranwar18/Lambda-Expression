@@ -52,9 +52,9 @@
             //}
 
 
-     
 
-           
+
+
 
             //Console.WriteLine("Enter Lastname");
             //string LastName = Console.ReadLine();
@@ -68,9 +68,21 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
+            //Console.WriteLine("Enter Lastname");
+            //string Email = Console.ReadLine();
+            //string opt = user.validateEmailusingLambda(Email);
+            //if (opt == "valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
             Console.WriteLine("Enter Lastname");
-            string Email = Console.ReadLine();
-            string opt = user.validateEmailusingLambda(Email);
+            string password = Console.ReadLine();
+            string opt = user.validateMobileNumberusingLambda(password);
             if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
