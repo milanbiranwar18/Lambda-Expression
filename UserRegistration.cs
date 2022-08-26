@@ -27,7 +27,11 @@ namespace LambdaExpression
 
          //UC4
          static string RegexMobileNumber = "^[1-9]{2}[6-9]{1}[0-9]{9}$";
-        public string validateMobileNumberusingLambda(string MobileNumber) => Regex.IsMatch(MobileNumber, RegexMobileNumber) ? "valid" : "Invalid" ;  
+        public string validateMobileNumberusingLambda(string MobileNumber) => Regex.IsMatch(MobileNumber, RegexMobileNumber) ? "valid" : "Invalid" ;
 
+
+        //UC5
+        public static string RegexPassword = "^[a-zA-Z]{8,}$";
+        public string validatePasswordusingLambda(string Password) => Regex.IsMatch(Password, RegexPassword) ? "valid" : "Invalid";  
     }
 }
