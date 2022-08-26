@@ -80,9 +80,22 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
+            //Console.WriteLine("Enter Lastname");
+            //string mobile = Console.ReadLine();
+            //string opt = user.validateMobileNumberusingLambda(mobile);
+            //if (opt == "valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
+
             Console.WriteLine("Enter Lastname");
             string password = Console.ReadLine();
-            string opt = user.validateMobileNumberusingLambda(password);
+            string opt = user.validatePasswordusingLambda(password);
             if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
