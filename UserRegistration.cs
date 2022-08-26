@@ -47,7 +47,9 @@ namespace LambdaExpression
         public static string RegexPassword8 = "^[A-Z]{1,}[a-z]{5,}[0-9]{1,}[@#&*]{1}$";
         public string validatePassword8usinglambda(string Password8) => Regex.IsMatch(Password8, RegexPassword8) ? "valid" : "Invalid";
 
-
+        //UC9
+        public static string RegexEmail9 = "^[0-9a-zA-Z]+([+#%&_.-][a-zA-Z0-9]+)*[@][a-zA-Z0-9]{1,}[.][a-zA-Z]{3}([.][a-zA-Z]{2,3})?$";
+        public string validateEmail9usingLambda(string Email9) => Regex.IsMatch(Email9, RegexEmail9) ? "valid" : "Invalid";
 
     }
 }
