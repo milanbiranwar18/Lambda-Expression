@@ -68,7 +68,7 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
-            //Console.WriteLine("Enter Lastname");
+            //Console.WriteLine("Enter Email");
             //string Email = Console.ReadLine();
             //string opt = user.validateEmailusingLambda(Email);
             //if (opt == "valid")
@@ -80,7 +80,7 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
-            //Console.WriteLine("Enter Lastname");
+            //Console.WriteLine("Enter Mobile Number");
             //string mobile = Console.ReadLine();
             //string opt = user.validateMobileNumberusingLambda(mobile);
             //if (opt == "valid")
@@ -93,7 +93,7 @@
             //}
 
 
-            //Console.WriteLine("Enter Lastname");
+            //Console.WriteLine("Enter Password");
             //string password = Console.ReadLine();
             //string opt = user.validatePasswordusingLambda(password);
             //if (opt == "valid")
@@ -105,7 +105,7 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
-            //Console.WriteLine("Enter Lastname");
+            //Console.WriteLine("Enter Password");
             //string password = Console.ReadLine();
             //string opt = user.validatePassword6usingLambda(password);
             //if (opt == "valid")
@@ -117,9 +117,21 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
-            Console.WriteLine("Enter Lastname");
+            //Console.WriteLine("Enter Password");
+            //string password = Console.ReadLine();
+            //string opt = user.validatePassword7usingLambda(password);
+            //if (opt == "valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
+            Console.WriteLine("Enter Password");
             string password = Console.ReadLine();
-            string opt = user.validatePassword7usingLambda(password);
+            string opt = user.validatePassword8usinglambda(password);
             if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
