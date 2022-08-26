@@ -32,6 +32,11 @@ namespace LambdaExpression
 
         //UC5
         public static string RegexPassword = "^[a-zA-Z]{8,}$";
-        public string validatePasswordusingLambda(string Password) => Regex.IsMatch(Password, RegexPassword) ? "valid" : "Invalid";  
+        public string validatePasswordusingLambda(string Password) => Regex.IsMatch(Password, RegexPassword) ? "valid" : "Invalid";
+
+        //UC6
+        public static string RegexPassword6 = "^[A-Z]{1,}[a-z]{7,}$";
+        public string validatePassword6usingLambda(string Password6) => Regex.IsMatch(Password6, RegexPassword6) ? "valid" : "Invalid";
+
     }
 }
