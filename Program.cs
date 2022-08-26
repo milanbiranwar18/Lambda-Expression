@@ -105,9 +105,21 @@
             //    Console.WriteLine("Pattern is not matched");
             //}
 
+            //Console.WriteLine("Enter Lastname");
+            //string password = Console.ReadLine();
+            //string opt = user.validatePassword6usingLambda(password);
+            //if (opt == "valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
             Console.WriteLine("Enter Lastname");
             string password = Console.ReadLine();
-            string opt = user.validatePassword6usingLambda(password);
+            string opt = user.validatePassword7usingLambda(password);
             if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
