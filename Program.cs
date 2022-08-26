@@ -33,22 +33,39 @@
 
 
             UserRegistration user = new UserRegistration();
-            Console.WriteLine("**********User Registration****************");
-            Console.WriteLine("Enter Firstname");
-            string Firstname = Console.ReadLine();
-            string opt = user.FirstnameCheckusingLambda(Firstname);
-            if (opt == "FirstName is Valid")
+            //Console.WriteLine("**********User Registration****************");
+            //Console.WriteLine("Enter Firstname");
+            //string Firstname = Console.ReadLine();
+            //string opt = user.FirstnameCheckusingLambda(Firstname);
+            //if (opt == "FirstName is Valid")
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Green;
+            //    Console.WriteLine(opt);
+            //    Console.ResetColor();
+            //}
+            //else
+            //{
+            //    Console.ForegroundColor = ConsoleColor.Red;
+            //    Console.WriteLine(opt);
+            //    Console.ResetColor();
+
+            //}
+
+
+     
+
+           
+
+            Console.WriteLine("Enter Lastname");
+            string LastName = Console.ReadLine();
+            string opt = user.validateLastNameusingLambda(LastName);
+            if (opt == "Valid")
             {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine(opt);
-                Console.ResetColor();
+                Console.WriteLine("Pattern is matched");
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine(opt);
-                Console.ResetColor();
-
+                Console.WriteLine("Pattern is not matched");
             }
         }
     }
