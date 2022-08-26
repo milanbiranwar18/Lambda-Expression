@@ -56,10 +56,22 @@
 
            
 
+            //Console.WriteLine("Enter Lastname");
+            //string LastName = Console.ReadLine();
+            //string opt = user.validateLastNameusingLambda(LastName);
+            //if (opt == "Valid")
+            //{
+            //    Console.WriteLine("Pattern is matched");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Pattern is not matched");
+            //}
+
             Console.WriteLine("Enter Lastname");
-            string LastName = Console.ReadLine();
-            string opt = user.validateLastNameusingLambda(LastName);
-            if (opt == "Valid")
+            string Email = Console.ReadLine();
+            string opt = user.validateEmailusingLambda(Email);
+            if (opt == "valid")
             {
                 Console.WriteLine("Pattern is matched");
             }
